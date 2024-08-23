@@ -1,0 +1,26 @@
+table{
+    margin: 20px auto;
+    width: 80%;
+    border: solid #ddd;
+    border-radius: 5px;
+    border-collapse: collapse;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8pc rgb(0, 0, 0, 0.1);
+}
+th{
+    background-color: green;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+tr:nth-child(2) td:nth-child(3){
+    background-color: pink;
+    color: rgb(170, 67, 101);
+}
+tr:nth-child(4) td:nth-child(3){
+    background-color: pink;
+    color: rgb(170, 67, 101);
+}
